@@ -17,6 +17,7 @@ Caso tenha familiaridade com Webpack, você também pode utilizar loaders e plug
 - SASS ([Docs](https://sass-lang.com/documentation/syntax))
 
 ## Como executar o projeto
+Faça um fork do repositório para a sua conta do GitHub, após isso clone o projeto  na sua máquina e siga os passos a seguir:
 1. Na raiz do projeto execute o comando `npm install` para instalar as dependências
 2. Inicie o webpack-dev-server com `npm start`
     - O projeto deve compilar e abrir automaticamente no seu navegador
