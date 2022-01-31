@@ -5,3 +5,5 @@ import './blinkers';
 import './sub-header';
 
 import './product';
+
+import './modal';

@@ -58,7 +58,59 @@
                             <input type="text" placeholder="Procurar..">
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="contact.html" target="_blank">Fale Conosco</a>
+                            <a class="nav-link" target="_blank" id="btn-Modal">Fale Conosco</a>
+
+                            <!-- MODAL FALE CONOSCO -->
+                            <div id="modalContato" class="modal">
+
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h2>Fale Conosco</h2>
+                                        <span class="close"><i class="fas fa-times"></i></span>
+                                    </div>
+                                    <div class="modal-body">
+                                        <form action="" class="contact__form grid-modal">
+
+                                            <div class="contact__inputs grid-modal">
+                                                <div class="contact__content">
+                                                    <label class="contact__label">Nome</label>
+                                                    <input id="name" type="text" class="contact__input">
+                                                </div>
+                                                <div class="contact__content">
+                                                    <label class="contact__label">E-mail</label>
+                                                    <input id="email" type="email" class="contact__input">
+                                                </div>
+                                                <div class="contact__content">
+                                                    <label class="contact__label">Telefone</label>
+                                                    <input id="phone" type="text" class="contact__input">
+                                                </div>
+                                                <div class="contact__content">
+                                                    <label class="contact__label">Assunto</label>
+                                                    <input id="subject" type="text" class="contact__input">
+                                                </div>
+                                            </div>
+
+                                            <div class="contact__content">
+                                                <label class="contact__label">Mensagem</label>
+                                                <textarea id="message" cols="0" rows="5" maxlength="500"
+                                                    class="contact__input" style="resize: vertical">
+                                                </textarea>
+                                            </div>
+
+                                            <div>
+                                                <a id="sendEmail" class="btns btns-flex" style="cursor: pointer;">Enviar
+                                                    <i class="fas fa-paper-plane send"></i>
+                                                </a>
+                                            </div>
+
+                                        </form>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <!-- <h3>Modal Footer</h3> -->
+                                    </div>
+                                </div>
+
+                            </div>
                         </li>
                     </ul>
                 </nav>
@@ -161,6 +213,7 @@
                     </div>
                 </div>
             </div>
+
             <!-- DESCRIÇÃO E Q&A -->
             <div class="col-6 description">
                 <div>
@@ -292,7 +345,9 @@
             </div>
             <div class="col-6 description banner">
                 <div class="infos">
-                    <img src="../images/banner-b.png" class="banner-img">
+                    <a href="https://github.com/franklinarauj/Teste-Front-End-Ecommerce" target="_blank">
+                        <img src="../images/banner-b.png" class="banner-img">
+                    </a>
                 </div>
             </div>
         </div>

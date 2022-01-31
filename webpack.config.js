@@ -25,12 +25,6 @@ module.exports = {
             inject: true,
             chunks: ['index'],
             filename: 'home.html'
-        }),
-        new HtmlWebpackPlugin({
-            template: './src/pages/contact.html',
-            inject: true,
-            chunks: ['index'],
-            filename: 'contact.html'
         })
         /**
          * Para adicionar mais páginas, basta copiar a declaração do HtmlWebpackPlugin acima,
