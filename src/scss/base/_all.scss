@@ -1,2 +1,22 @@
 @import "fonts";
 @import "titles";
+@import "imgs";
+@import "header";
+@import "sub-header";
+@import "product-details";
+@import "animations";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+$fa-font-path: "~@fortawesome/fontawesome-free/webfonts";
+@import "~@fortawesome/fontawesome-free/scss/fontawesome.scss";
+@import "~@fortawesome/fontawesome-free/scss/solid.scss";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Bebas Neue', cursive;
+}
+
+body {
+    color: #191919;
+}

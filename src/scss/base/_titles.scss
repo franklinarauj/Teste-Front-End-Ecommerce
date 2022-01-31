@@ -1,8 +1,10 @@
 h1 {
-    font-family: 'sansation';
+    font-family: 'Bebas Neue', cursive;
     
     &.white {
         color: #FFF;
+        background: #000;
+        position: relative;
     }
     &.hidden {
         display: none;

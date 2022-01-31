@@ -25,6 +25,12 @@ module.exports = {
             inject: true,
             chunks: ['index'],
             filename: 'home.html'
+        }),
+        new HtmlWebpackPlugin({
+            template: './src/pages/contact.html',
+            inject: true,
+            chunks: ['index'],
+            filename: 'contact.html'
         })
         /**
          * Para adicionar mais páginas, basta copiar a declaração do HtmlWebpackPlugin acima,
@@ -53,6 +59,14 @@ module.exports = {
                 test: /\.(woff|woff2|eot|ttf|otf)$/i,
                 type: 'asset/resource',
             },
+            {
+                test: /\.(svg|eot|woff|woff2|ttf)$/,
+                type: 'asset/resource',
+                generator: {
+                  //publicPath: '../fonts/',
+                  filename: 'compiled/fonts/[hash][ext][query]'
+                }
+             },
         ],
     },
 };
