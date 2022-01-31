@@ -39,17 +39,11 @@ div .item {
 
 ::-webkit-scrollbar {
     background-color: #191919;
-    // border-radius: .5rem;
 }
 
 ::-webkit-scrollbar-thumb:vertical {
     background-color: #454545;
-    // border-radius: .5rem;
 }
-
-// ::-webkit-scrollbar-thumb:hover {
-//     background-color: #45D33D;
-// }
 
 .item {
     flex: none;
