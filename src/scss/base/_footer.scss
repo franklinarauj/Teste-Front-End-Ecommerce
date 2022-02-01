@@ -1,0 +1,22 @@
+.footer {
+    z-index: 2;
+    height: 25px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    position: relative;
+    text-align: center;
+    align-items: center;
+    vertical-align: middle;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #191919;
+    box-shadow: 0px -2px 8px 2px #646464;
+}
+
+.title-footer {
+    font-size: 12px;
+    font-weight: 200;
+    color: #F5F5F5;
+}

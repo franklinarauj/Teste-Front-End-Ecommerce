@@ -1,0 +1,31 @@
+.scrollup {
+    position: fixed;
+    right: 5rem;
+    bottom: -20%;
+    font-size: var(--mb-1-5);
+    background-color: #191919;
+    color: #F5F5F5;
+    opacity: .8;
+    padding: .8rem .8rem;
+    border-radius: .5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, .15);
+    z-index:8;
+    transition: .4s;
+}
+
+.scrollup:hover {
+    background-color: #F5F5F5;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.530);
+    color: #191919;
+    transform: translateY(-.25rem);
+}
+
+.scrollup__icon {
+    font-size: 5rem;
+    color: #fff;
+}
+
+/* Show scroll */
+.show-scroll {
+    bottom: 5rem;    
+}

@@ -7,3 +7,5 @@ import './sub-header';
 import './product';
 
 import './modal';
+
+import './scroll-up';
